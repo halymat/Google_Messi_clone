@@ -97,7 +97,7 @@ section {
 }
 
 .left-side {
-    /* width: 60%; */
+    width: 60%;
 }
 
 section {
@@ -504,7 +504,7 @@ div.question {
     border-left: 1px solid rgba(219, 219, 219, 1);
     padding-left: 20px;
     margin-left: 10px;
-    max-height: 1300px;
+    /* max-height: 1300px; */
 }
 
 .right-side .about-messi h1 {

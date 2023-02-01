@@ -31,7 +31,6 @@ header {
 header img {
     width: 60px;
     border-radius: 15px;
-    /* margin-top: 15px; */
 }
 
 .text p {
@@ -96,10 +95,6 @@ section {
     justify-content: space-between;
 }
 
-.left-side {
-    width: 60%;
-}
-
 section {
     display: flex;
     gap: 2rem;
@@ -112,25 +107,14 @@ section .left-side-wrap {
 }
 
 section .left-side-wrap img {
-    /* width: 100%; */
     cursor: pointer;
 }
 
 .left-side-wrap .pic1 img {
     border-radius: 15px 0 0 15px;
-    width: 200px;
-}
-
-.left-side-wrap .pic2 img {
-    width: 147px;
-}
-
-.left-side-wrap .pic3 img {
-    width: 200px;
 }
 
 .left-side-wrap .pic4 img {
-    width: 155px;
     border-radius: 0 15px 15px 0;
 }
 
@@ -260,16 +244,10 @@ h2 {
 
 .blog-content {
     display: flex;
-    /* justify-content: space-between; */
     border-top: 1px solid rgba(219, 219, 219, 1);
     padding: 30px 0;
     cursor: pointer;
 }
-
-
-/* .blog-left {
-        padding: 0;
-    } */
 
 .blog-left-wrap {
     display: flex;
@@ -309,11 +287,6 @@ span {
     align-items: center;
 }
 
-
-/* .left-side .news-btn {
-        text-align: center;
-    } */
-
 .news-btn h1 {
     font-weight: 300;
     font-size: 16px;
@@ -332,23 +305,6 @@ span {
     cursor: pointer;
 }
 
-
-/* .news-btn button {
-        padding: 12px 100px;
-        width: 50%;
-        border-radius: 25px;
-        border: none;
-        outline: none;
-        font-size: 16px;
-        margin-left: 15px;
-        cursor: pointer;
-        position: relative;
-    }
-    
-    .news-btn button:hover {
-        background-color: rgba(219, 219, 219, 1);
-    } */
-
 .news-btn i {
     font-size: 18px;
     color: rgb(83, 77, 77);
@@ -358,7 +314,7 @@ span {
 .news-btn::before {
     content: "";
     display: block;
-    width: 33rem;
+    width: 30rem;
     height: 1px;
     background-color: gainsboro;
     position: absolute;
@@ -370,7 +326,7 @@ span {
 .news-btn::after {
     content: "";
     display: block;
-    width: 33rem;
+    width: 30rem;
     height: 1px;
     background-color: gainsboro;
     position: absolute;
@@ -392,25 +348,16 @@ div.faq h1 {
 
 div.faq .question {
     border-top: 1px solid rgba(219, 219, 219, 1);
-    /* padding-top: 10px; */
 }
 
 div.questions {
     margin: 0 auto;
     max-width: 900px;
     font-size: 1.1rem;
-    /* padding: 20px; */
 }
-
-
-/* div.questions span {
-    font-size: 1.3rem;
-} */
 
 div.question {
     position: relative;
-    /* background-color: #303030; */
-    /* margin-bottom: 10px; */
 }
 
 .question i {
@@ -572,17 +519,11 @@ div.question {
     border-radius: 50%;
     text-align: center;
     line-height: 40px;
-    /* text-align: center;
-        border-radius: 50%;
-        border: 1px solid black; */
 }
 
 .statistics span i {
     font-size: 14px;
     align-items: center;
-    /* line-height: 40px; */
-    /* line-height: 60px; */
-    /* line-height: 50px; */
 }
 
 .statistics .arg {
@@ -719,8 +660,3 @@ div.question {
 .search a {
     padding-bottom: 3rem;
 }
-
-
-/* .search-btn {
-    display: inline-block;
-} */
